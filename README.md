@@ -14,7 +14,7 @@ A proposta é criar um relógio digital dinâmico, capaz de exibir a hora, minut
 
 O foco da atividade é compreender como o JavaScript interage com o HTML para atualizar informações na página sem recarregar, reforçando o uso de funções, manipulação de elementos e lógica de programação aplicada ao front-end.
 
-⚙️ Estrutura do Projeto
+## ⚙️ Estrutura do Projeto
 /CP3-WebDev
 ├── index.html      → Estrutura base da página
 ├── style.css       → Estilização simples do relógio
