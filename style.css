@@ -1,0 +1,60 @@
+:root {
+  --bg: #0e1a2b;
+  --card: #18273e;
+  --accent: #5dbbff;
+  --text: #f1f5f9;
+  --muted: #a0b8d9;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: radial-gradient(circle at top left, #0e1a2b, #09111f);
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border-radius: 14px;
+  padding: 32px 40px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  margin: 0 0 18px 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 1px;
+}
+
+#relogio {
+  font-size: 3.4rem;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: 6px;
+  padding: 12px 24px;
+  border-radius: 12px;
+  background: rgba(93, 187, 255, 0.1);
+  box-shadow: inset 0 0 10px rgba(93, 187, 255, 0.25);
+  display: inline-block;
+  min-width: 220px;
+}
+
+.info {
+  margin-top: 14px;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
